@@ -1,0 +1,445 @@
+<!DOCTYPE ui:UiBinder SYSTEM 'http://dl.google.com/gwt/DTD/xhtml.ent'>
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:c='urn:import:com.google.gwt.user.cellview.client'
+	xmlns:svg='urn:import:org.vectomatic.dom.svg.ui' xmlns:b='urn:import:org.gwtbootstrap3.client.ui'
+	xmlns:b.gwt='urn:import:org.gwtbootstrap3.client.ui.gwt'>
+	<ui:style type='com.bombardier.mint.gwt.client.ClientView.Style'>
+		.log {
+		resize: none;
+		color: #F8F8F2;
+		background:
+		#8996A0 !important;
+		}
+
+		.danger {
+		background-color: #fcf2f2;
+		border-color: #dFb5b4;
+		}
+
+		.margin-fix
+		{
+		margin-bottom: 0 !important;
+		}
+
+		.navbar-btn {
+		color: white;
+		font-size:22px;
+		background-color: rgba(240, 173, 78, 0);
+		border-color:
+		rgba(240,
+		173, 78, 0);
+		}
+		.navbar-btn:active,.navbar-btn:hover{
+		color:
+		darkblue;
+		font-size:
+		22px;
+		background-color: rgba(240, 173, 78,
+		0);
+		border-color: rgba(240,
+		173,
+		78, 0);
+		outline:none;
+		}
+
+		.navbar-title
+		{
+		padding-top: 16px
+		!important;
+		padding-left:
+		32px
+		!important;
+		}
+
+		.navbar-logo
+		{
+		margin-left: 10px !important;
+		}
+
+		.svgdrawing {
+		padding-top:
+		62px!important;
+		height:100%;
+		width:100%;
+		}
+
+		.objectspanel
+		{
+		position:fixed;
+		height:100%;
+		left:0;
+		width:210px;
+		background:#f5f5f5;
+		z-index:500;
+		}
+
+		.objectspanel2
+		{
+		position:fixed;
+		height:100%;
+		left:210px;
+		width:210px;
+		background:#f5f5f5;
+		}
+
+		.objectspanel-list {
+		}
+
+		.sidebar-large {
+		position:fixed;
+		height:100%;
+		width:756px;
+		top:61px;
+		right:0;
+		background:#f5f5f5;
+		}
+
+		.sidebar-small {
+		position:fixed;
+		height:100%;
+		width:256px;
+		top:61px;
+		right:0;
+		background:#f5f5f5;
+		}
+
+		.sidebar-body {
+		padding-top:0px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:0px;
+		}
+
+		.sidebar-svg-container-left {
+		float:left;
+		padding-left:5px;
+		padding-right:5px;
+		padding-top:0px;
+		padding-bottom:0px;
+		border-style: dashed;
+		border-left-style: none;
+		border-top-style: none;
+		border-bottom-style: none;
+		border-width: 1px;
+		}
+
+		.sidebar-svg-container-right {
+		float:left;
+		padding-left:5px;
+		padding-right:5px;
+		padding-top:0px;
+		padding-bottom:0px;
+		border-style: dashed;
+		border-right-style: none;
+		border-top-style: none;
+		border-bottom-style: none;
+		border-width: 1px;
+		border-color: transparent;
+		}
+
+		.sidebar-label-container {
+		width:100%;
+		}
+
+		.sidebar-description {
+		width:100%;
+		height:30px;
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:14px;
+		margin:0px;
+		font-style:italic;
+		font-weight:normal;
+		}
+
+		.sidebar-text {
+		width:100%;
+		height:62px;
+		margin:5px;
+		font-style:italic;
+		font-weight:normal;
+		}
+
+		.sidebar-header
+		{
+		font-weight:bold;
+		height:22px;
+		padding-top:2px;
+		padding-bottom:2px;
+		padding-right:6px;
+		padding-left:2px;
+		border: 0px;
+		}
+
+		.sidebar-heading {
+		font-weight: bold;
+		padding-top: 3px;
+		}
+
+		.sidebar-resize-btn {
+		border:0px;
+		padding-left:0px;
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-right:5px;
+		font-size:18px;
+		color:
+		#8996a0;
+		background-color:
+		#f5f5f5;
+		}
+
+		.sidebar-resize-btn:focus,
+		.sidebar-resize-btn:active {
+		outline:none;
+		background-color:#f5f5f5;
+		}
+
+		.sidebar-close-btn {
+		border:0px;
+		padding:0px;
+		font-size:18px;
+		color:
+		#8996a0;
+		background-color: #f5f5f5;
+		}
+
+		.sidebar-svg
+		{
+		width:100%;
+		}
+
+		.filterText {
+		color: #8996a0;
+		}
+
+		.filterGroup {
+		padding:0px;
+		width:100%;
+		}
+
+		.navbar-navigation-btn {
+		margin-left:-5px;
+		margin-top:2px;
+		}
+
+		.navbarheader {
+		margin-top:6px;
+		}
+
+		.actionbutton {
+		width:100px;
+		margin:5px;
+		}
+
+		.sidebar-svg-panel-small {
+		height:245px;
+		margin:0px;
+		}
+
+		.sidebar-svg-panel-large {
+		height:289px;
+		margin:0px;
+		}
+
+		.panel-footer {
+		z-index:600;
+		}
+
+		.mediaplayer {
+		height:172px;
+		}
+
+		.testcases-chart {
+		position:fixed;
+		height:168px;
+		width:208px;
+		top:536px;
+		border-top-width:1px;
+		border-top-style:solid;
+		border-color:#dddddd;
+		}
+
+		.anchorListItem {
+		margin-top:5px;
+		margin-bottom:5px;
+		}
+
+		.dropDownMenuListItem {
+		font-size:16px;
+		}
+
+		.testcasesFilter-NoFilter {
+		color:#757575 !important;
+		font-weight:bold !important;
+		}
+
+		.testcasesFilter-Failed {
+		color:#d9534f !important;
+		font-weight:bold
+		!important;
+		}
+
+		.testcasesFilter-Passed {
+		color:#5cb85c !important;
+		font-weight:bold !important;
+		}
+
+		.testcasesFilter-Remaining {
+		color:#757575 !important;
+		font-weight:bold !important;
+		}
+	</ui:style>
+	<ui:with field='resources'
+		type='com.bombardier.mint.gwt.client.resources.ClientResources' />
+	<b:Panel width='100%'>
+
+		<!-- Navbar / Toolbar -->
+		<b:Navbar position='FIXED_TOP' addStyleNames='{style.margin-fix}'>
+			<b:Container fluid='true'>
+				<b:NavbarHeader addStyleNames='{style.navbarheader}'>
+					<b:ButtonGroup addStyleNames='pull-left'>
+						<b:Button dataToggle='DROPDOWN' toggleCaret='false'
+							addStyleNames='{style.navbar-btn} {style.navbar-navigation-btn}'
+							icon='BARS' />
+						<b:DropDownMenu>
+							<b:ListItem addStyleNames='{style.dropDownMenuListItem}'>
+								<b:Anchor ui:field='showWaysideobjectsMenu' text="Show Wayside Objects"
+									addStyleNames='{style.testcasesFilter-NoFilter}' />
+							</b:ListItem>
+							<b:ListItem addStyleNames='{style.dropDownMenuListItem}'>
+								<b:Anchor ui:field='showTestcasesMenu' text="Show Test Cases"
+									addStyleNames='{style.testcasesFilter-NoFilter}' />
+							</b:ListItem>
+						</b:DropDownMenu>
+					</b:ButtonGroup>
+					<b:Image resource='{resources.bombardier_logo}'
+						addStyleNames='navbar-brand {style.navbar-logo}' />
+					<b:NavbarBrand ui:field='navbarBrand' addStyleNames='{style.navbar-title}'></b:NavbarBrand>
+					<b:NavbarCollapseButton dataTarget="#navbar-collapse" />
+				</b:NavbarHeader>
+
+				<b:NavbarCollapse b:id='navbar-collapse'>
+					<b:NavbarForm pull='RIGHT'>
+						<b:Button addStyleNames='{style.navbar-btn}' icon='GEAR'
+							ui:field='settingsBtn' />
+						<b:Button addStyleNames='{style.navbar-btn}' icon='SPINNER'
+							ui:field='connectionBtn' />
+					</b:NavbarForm>
+				</b:NavbarCollapse>
+			</b:Container>
+		</b:Navbar>
+		<b:PanelBody addStyleNames='{style.svgdrawing}'>
+			<!-- Wayside Objects Panel -->
+			<b:Panel addStyleNames='{style.objectspanel}' ui:field='waysideobjectsPanel'>
+				<b:PanelHeader addStyleNames='{style.sidebar-header}'>
+					<b:Heading size='H3' addStyleNames='pull-left {style.sidebar-heading}'
+						text='Wayside Objects' />
+					<b:Button addStyleNames='pull-right {style.sidebar-close-btn}'
+						icon='TIMES' ui:field='waysideobjectsCloseBtn' />
+				</b:PanelHeader>
+				<b:InputGroup addStyleNames='{style.filterGroup}'>
+					<b:TextBox placeholder="(No filter)" autoComplete="false"
+						ui:field='waysideobjectsFilterText' addStyleNames='{style.filterText}' />
+					<b:InputGroupButton>
+						<b:Button dataToggle="DROPDOWN" />
+						<b:DropDownMenu ui:field='waysideobjectsFilterMenu'>
+						</b:DropDownMenu>
+					</b:InputGroupButton>
+				</b:InputGroup>
+				<g:ScrollPanel width='100%' height='572px'>
+					<c:CellList addStyleNames='{style.objectspanel-list}'
+						ui:field='waysideobjectsList'></c:CellList>
+				</g:ScrollPanel>
+			</b:Panel>
+
+			<!-- Test Cases Panel -->
+			<b:Panel addStyleNames='{style.objectspanel2}' ui:field='testcasesPanel'>
+				<b:PanelHeader addStyleNames='{style.sidebar-header}'>
+					<b:Heading size='H3' addStyleNames='pull-left {style.sidebar-heading}'
+						text='Test Cases' />
+					<b:Button addStyleNames='pull-right {style.sidebar-close-btn}'
+						icon='TIMES' ui:field='testcasesCloseBtn' />
+				</b:PanelHeader>
+				<b:InputGroup addStyleNames='{style.filterGroup}'>
+					<b:TextBox placeholder="(No filter)" autoComplete='false'
+						ui:field='testcasesFilterText' addStyleNames='{style.filterText}' />
+					<b:InputGroupButton>
+						<b:Button dataToggle="DROPDOWN" />
+						<b:DropDownMenu ui:field='testcasesFilterMenu'>
+							<b:ListItem addStyleNames='{style.dropDownMenuListItem}'>
+								<b:Anchor ui:field='testcasesFilterMenuNoFilter' icon="BAN"
+									text="No filter" addStyleNames='{style.testcasesFilter-NoFilter}' />
+							</b:ListItem>
+							<b:ListItem addStyleNames='{style.dropDownMenuListItem}'>
+								<b:Anchor ui:field='testcasesFilterMenuFailed' icon="TIMES_CIRCLE"
+									text="Failed" addStyleNames='{style.testcasesFilter-Failed}' />
+							</b:ListItem>
+							<b:ListItem addStyleNames='{style.dropDownMenuListItem}'>
+								<b:Anchor ui:field='testcasesFilterMenuPassed' icon="CHECK_CIRCLE"
+									text="Passed" addStyleNames='{style.testcasesFilter-Passed}' />
+							</b:ListItem>
+							<b:ListItem addStyleNames='{style.dropDownMenuListItem}'>
+								<b:Anchor ui:field='testcasesFilterMenuRemaining' icon="QUESTION_CIRCLE"
+									text="Remaining" addStyleNames='{style.testcasesFilter-Remaining}' />
+							</b:ListItem>
+						</b:DropDownMenu>
+					</b:InputGroupButton>
+				</b:InputGroup>
+				<g:ScrollPanel width='100%' height='412px'>
+					<c:CellList height='100%' addStyleNames='{style.objectspanel-list}'
+						ui:field='testcasesList'></c:CellList>
+				</g:ScrollPanel>
+				<g:SimplePanel ui:field='testcasesChartContainer'
+					addStyleNames='{style.testcases-chart}' />
+			</b:Panel>
+
+			<!-- Infrastructure drawing container for SVG -->
+			<g:SimplePanel height='100%' ui:field='infraDrawingContainer' />
+
+			<!-- Right side bar with detailed test case information -->
+			<b:Panel addStyleNames='{style.sidebar-small}' ui:field='sideBar'>
+				<b:PanelHeader addStyleNames='{style.sidebar-header}'>
+					<b:Button addStyleNames='pull-left {style.sidebar-resize-btn}'
+						icon='TOGGLE_LEFT' ui:field='sideBarResizeBtn' />
+					<b:Heading size='H3' ui:field='sideBarHeading'
+						addStyleNames='pull-left {style.sidebar-heading}' />
+					<b:Button addStyleNames='pull-right {style.sidebar-close-btn}'
+						icon='TIMES' ui:field='sideBarCloseBtn' />
+				</b:PanelHeader>
+				<b:PanelBody width='100%' height='100%' ui:field='sideBarBody'
+					addStyleNames='{style.sidebar-body}'>
+					<b:FormLabel ui:field='sideBarDescription'
+						addStyleNames='{style.sidebar-description}' />
+					<b.gwt:FlowPanel width='100%' ui:field='sideBarSvgFlowPanel'
+						addStyleNames='{style.sidebar-svg-panel-small}'>
+						<b:Container width='50%' height='100%' ui:field='sideBarSvgContainer1'
+							addStyleNames='{style.sidebar-svg-container-left}' />
+						<b:Container width='50%' height='100%' ui:field='sideBarSvgContainer2'
+							addStyleNames='{style.sidebar-svg-container-right}' />
+					</b.gwt:FlowPanel>
+					<b.gwt:FlowPanel width='100%'>
+						<b:Button icon='PLAY' type='PRIMARY' dataLoadingText="Executing..."
+							ui:field='execBtn' addStyleNames='{style.actionbutton}'>Exec</b:Button>
+						<b:Button icon='CAMERA' ui:field='recBtn'
+							addStyleNames='{style.actionbutton}'>Doc</b:Button>
+						<b:Button icon='CHECK_CIRCLE' type='SUCCESS' ui:field='passBtn'
+							addStyleNames='{style.actionbutton}'>Pass</b:Button>
+						<b:Button icon='TIMES_CIRCLE' type='DANGER' ui:field='failBtn'
+							addStyleNames='{style.actionbutton}'>Fail</b:Button>
+					</b.gwt:FlowPanel>
+					<b:FormLabel ui:field='sideBarText' addStyleNames='{style.sidebar-text}' />
+					<g:HTML addStyleNames='{style.mediaplayer}'>
+						<video autoplay='true' controls='controls' ui:field='mediaPlayer'
+							height='100%' width='100%'/>
+					    <img ui:field='mediaImage' height='100%'/>
+					</g:HTML>
+				</b:PanelBody>
+			</b:Panel>
+		</b:PanelBody>
+		<b:PanelFooter ui:field='logArea' addStyleNames='{style.panel-footer}'>
+			<b:TextArea readOnly='true' width='100%' height='100%'
+				ui:field='logAreaText' addStyleNames='{style.log}' />
+		</b:PanelFooter>
+	</b:Panel>
+</ui:UiBinder>

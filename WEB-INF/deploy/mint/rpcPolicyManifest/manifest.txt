@@ -1,0 +1,4 @@
+# Module mint
+# RPC service class, partial path of RPC policy file
+com.googlecode.gwtphonegap.client.log.shared.PhoneGapLogService, 0D57A28746BD4C224BC5B9BF9B9F415D.gwt.rpc
+com.googlecode.gwtphonegap.client.file.browser.service.FileRemoteService, 8DC36D360977681FE79E0BDD186512F8.gwt.rpc

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 99.999997 99.999997"
+   id="svg6090"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="vvmi.svg">
+  <defs
+     id="defs6092" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.92"
+     inkscape:cx="-270.03001"
+     inkscape:cy="9.1805811"
+     inkscape:document-units="px"
+     inkscape:current-layer="g6678"
+     showgrid="true"
+     units="px"
+     showguides="false"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6108" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6095">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Default"
+     inkscape:groupmode="layer"
+     id="g7625"
+     transform="translate(0,-952.36223)"
+     style="display:inline">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.14708614;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle7627"
+       cx="50"
+       cy="1002.3622"
+       r="44.426456"
+       inkscape:label="#path6110" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.557495"
+       y="999.61224"
+       id="text7629"
+       sodipodi:linespacing="125%"
+       inkscape:label="#text6654"><tspan
+         sodipodi:role="line"
+         id="tspan7631"
+         x="14.557495"
+         y="999.61224">VVMI</tspan></text>
+  </g>
+  <g
+     inkscape:label="Undefined"
+     inkscape:groupmode="layer"
+     id="g4165"
+     transform="translate(0,-952.36223)"
+     style="display:none">
+    <circle
+       style="fill:#d5d9dd;fill-opacity:1;stroke:#000000;stroke-width:1.14699996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle4167"
+       cx="50"
+       cy="1002.3622"
+       r="44.426456"
+       inkscape:label="#path6110" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.557495"
+       y="999.61224"
+       id="text4169"
+       sodipodi:linespacing="125%"
+       inkscape:label="#text6654"><tspan
+         sodipodi:role="line"
+         id="tspan4171"
+         x="14.557495"
+         y="999.61224">VVMI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.295166"
+       y="1018.9693"
+       id="text4173"
+       sodipodi:linespacing="125%"
+       inkscape:label="#text6662"><tspan
+         y="1018.9693"
+         x="11.295166"
+         sodipodi:role="line"
+         id="tspan4175">Undefined</tspan></text>
+  </g>
+  <g
+     inkscape:label="Flashing"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36223)"
+     style="display:none">
+    <circle
+       style="fill:#ec971f;fill-opacity:1;stroke:#000000;stroke-width:1.14708614;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="MAIN"
+       cx="50"
+       cy="1002.3622"
+       r="44.426456"
+       inkscape:label="#path6110" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.557495"
+       y="999.61224"
+       id="TYPE"
+       sodipodi:linespacing="125%"
+       inkscape:label="#text6654"><tspan
+         sodipodi:role="line"
+         id="tspan6656"
+         x="14.557495"
+         y="999.61224">VVMI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="18.934326"
+       y="1018.9693"
+       id="STATE"
+       sodipodi:linespacing="125%"
+       inkscape:label="#text6662"><tspan
+         sodipodi:role="line"
+         id="tspan6704"
+         x="18.934326"
+         y="1018.9693">Flashing</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     transform="translate(0,-952.36223)"
+     id="g6678"
+     inkscape:groupmode="layer"
+     inkscape:label="Steady Off">
+    <circle
+       inkscape:label="#path6110"
+       r="44.426456"
+       cy="1002.3622"
+       cx="50"
+       id="circle6680"
+       style="fill:#337ab7;fill-opacity:1;stroke:#000000;stroke-width:1.14708614;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       inkscape:label="#text6654"
+       sodipodi:linespacing="125%"
+       id="text6682"
+       y="999.61224"
+       x="14.557495"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="999.61224"
+         x="14.557495"
+         id="tspan6684"
+         sodipodi:role="line">VVMI</tspan></text>
+    <text
+       inkscape:label="#text6662"
+       sodipodi:linespacing="125%"
+       id="text6686"
+       y="1018.9693"
+       x="8.7792969"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1018.9693"
+         x="8.7792969"
+         id="tspan6688"
+         sodipodi:role="line">Steady Off</tspan></text>
+  </g>
+  <g
+     transform="translate(0,-952.36223)"
+     id="g6666"
+     inkscape:groupmode="layer"
+     inkscape:label="Steady On"
+     style="display:none">
+    <circle
+       inkscape:label="#path6110"
+       r="44.426456"
+       cy="1002.3622"
+       cx="50"
+       id="circle6668"
+       style="fill:#5cb85c;fill-opacity:1;stroke:#000000;stroke-width:1.14708614;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       inkscape:label="#text6654"
+       sodipodi:linespacing="125%"
+       id="text6670"
+       y="999.61224"
+       x="14.557495"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="999.61224"
+         x="14.557495"
+         id="tspan6672"
+         sodipodi:role="line">VVMI</tspan></text>
+    <text
+       inkscape:label="#text6662"
+       sodipodi:linespacing="125%"
+       id="text6674"
+       y="1018.9693"
+       x="10.789795"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1018.9693"
+         x="10.789795"
+         id="tspan6676"
+         sodipodi:role="line">Steady On</tspan></text>
+  </g>
+</svg>
